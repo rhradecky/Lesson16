@@ -13,6 +13,3 @@ def test_add(a,b,expected):
     calc = Kalkulacka()
     assert calc.sucet(a,b) == expected
 
-
-if __name__ == '__main__':
-    pytest.main()
